@@ -5,6 +5,22 @@
     font-size: 100%;
 }
 
-header img {
+html {
+
+}
+
+body {
+    background-color: #E8F5D8;
+}
+
+footer {
+    background-color: #95CBBE;
+}
+
+.logo-img {
     max-width: 6em;
+}
+
+p {
+    font-family: 'Urbanist', sans-serif;
 }
