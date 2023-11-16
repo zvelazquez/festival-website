@@ -21,6 +21,10 @@ footer {
     max-width: 6em;
 }
 
+h4 {
+    font-family: 'DM Serif Text', serif;
+}
+
 p {
     font-family: 'Urbanist', sans-serif;
 }
