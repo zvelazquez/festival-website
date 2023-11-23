@@ -19,6 +19,31 @@ body {
     max-width: 6em;
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+	margin: auto;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: #fff9f0;
+}
+
+nav li {
+    display: inline-flex;
+    flex-direction: column;
+    padding: .5em 1em;
+    margin: 0em 4em;
+    background-color: black;
+}
+
+nav li a {
+    font-family: ClashDisplay, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
 footer {
     background-color: #95CBBE;
 }
