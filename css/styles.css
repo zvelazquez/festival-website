@@ -7,22 +7,23 @@
     font-size: 100%;
 }
 
-html {
-
-}
-
 body {
-    background-color: #E8F5D8;
+    background-color: #fff9f0;
 }
 
 .logo-img {
     max-width: 6em;
 }
 
+.logo-words {
+    max-width: 9em;
+}
+
 nav {
     display: flex;
     flex-direction: column;
 	margin: auto;
+    padding: 1em 0em;
     width: 100%;
     text-align: center;
     position: sticky;
@@ -42,6 +43,11 @@ nav li a {
     font-family: ClashDisplay, sans-serif;
     text-decoration: none;
     color: white;
+}
+
+.page-title {
+    font-family: ClashDisplay, sans-serif;
+    font-size: 8em;
 }
 
 footer {
