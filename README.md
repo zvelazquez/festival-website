@@ -7,9 +7,11 @@ Hosted currently at https://zvelazquez.github.io/festival-website/
 
 ***
 # Project Overview
-When approaching this project, I was presented with an opportunity to introspectivly examine issues and causes that I felt connected too. While floating around different ideas, one of the topics that frequently surfaced was the issue of Mental Health Awareness. 
+Mental Health is an issue that impacts 1 in 5 people in the United States. I myself am one of those individuals. 
 
-Personally, this is an aspect of my life that has had an impact on my life for several years now. Since high school, I have struggled with anxiety and depression, and my observations from my own life and the lives of others around me have opened my eyes to the disparities surrounding this issue. Minority groups and people of color tend to have less access to mental health resources and support services, leading to the silent suffering of many within these communities. Additionally, stigma around the issue of mental health is especially prevalent within these communities as well, making it difficult for many to get the help and support that they need, or being unaware of the resources and services available to them. 
+Since high school, I have struggled with anxiety and depression, and my observations from my own life and the lives of others around me have opened my eyes to the disparities surrounding this issue. Minority groups and people of color tend to have less access to mental health resources and support services, leading to the silent suffering of many within these communities. Additionally, stigma around the issue of mental health is especially prevalent within these communities as well, making it difficult for many to get the help and support that they need, or being unaware of the resources and services available to them.
+
+When approaching this project, I wanted to make sure that I told the right story. I wanted this project to be inclusive, and give a voice to those who often go unheard or ignored. My purpose when approaching this project was to shed light on this issue from a variety of different perspectives, and to respectfully consider the unique experiences of different individuals when it comes to this issue.  
 
 This website was created as an accompanying complimentary feature to an imaginary social justice festival helping to raise awareness around the issue of mental illness. The festival was concieved as an ideal and accessible approach to help people with mental illness and their families to access resources and learn about ways that they can help combat the stigma.
 

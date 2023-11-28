@@ -50,6 +50,11 @@ nav li a {
     font-size: 8em;
 }
 
+.about-text {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1em;
+}
+
 footer {
     background-color: #95CBBE;
 }
