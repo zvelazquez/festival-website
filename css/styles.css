@@ -58,96 +58,36 @@ nav a {
     background-color: black;
 }
 
-/* nav {
-    display: flex;
-    flex-direction: row;
-    
-    background-color: yellow;
-}
-
-.nav-logo {
-    display: flex;
-    justify-content: flex-start;
-    background-color: blue;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: flex-end;
-    background-color: green;
-}
-
-.nav-a {
-    font-family: ClashDisplay, sans-serif;
-    text-decoration: none;
-    color: white;
-    background-color: red;
-} */
-
 .splash-img {
     max-width: 100%;
 }
 
 .page-title {
     font-family: ClashDisplay, sans-serif;
-    font-size: 8em;
-    padding-left: .5em;
+    font-size: 10em;
+    padding-left: .4em;
 }
 
-.about-text {
-    font-family: 'Urbanist', sans-serif;
-    font-size: 1em;
-}
-
-.project {
-	display: flex;
-	flex-wrap: wrap;
-    border-radius: 25px;
-}
-
-.project > * {
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: 25em;
-}
-
-.cell {
-	padding: 1em;
-    /* background-color: red; */
-	/* margin: 15px 5%; */
-    /* margin: 10px; */
-}
-
-.cell-text{
-    margin-right: 4em;
-    padding: 3em 3em 3em 0em;
-    /* background-color: green; */
-
-}
-
-.cell img {
-	object-fit: contain;
-	width: 75%;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 15px;
-    /* background-color: blue; */
-}
-
-h2 {
-    font-family: 'Urbanist', sans-serif;
-    font-size: 3em;
+.page-details {
+    margin: 0em 3em 0em 4.25em;
 }
 
 .description-text {
     font-family: 'Urbanist', sans-serif;
+    line-height: 1.15em;
 }
 
-
-
+h5 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 3em;
+}
 
 footer {
     background-color: #95CBBE;
+    margin-top: 15em;
+    padding: 3em 10em 3em 10em;
+    font-family: 'Urbanist', sans-serif;
+    font-size: .35em;
 }
 
 @font-face {

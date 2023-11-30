@@ -1,8 +1,35 @@
 .day-title {
     font-family: 'DM Serif Text', serif;
-    font-size: 3.5em;
+    font-size: 4.5em;
+    margin-left: .95em;
 }
 
-.musician-img {
-    max-width: 50%;
+.day-section {
+    margin-top: 5em;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-cell {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 3em;
+}
+
+.event-img {
+    max-width: 100%;
+}
+
+.text-cell {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+
+.event-time {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.5em;
 }
