@@ -22,6 +22,7 @@ nav {
     align-items: center;
     font-size: 1.2rem;
     width: 100%;
+    padding: 1em 0em;
 }
 
 .logo {
@@ -30,7 +31,6 @@ nav {
 
 .logo img {
     height: 6rem;
-    margin: 1em 0em;
 }
 
 .nav-links {
@@ -91,12 +91,60 @@ nav a {
 .page-title {
     font-family: ClashDisplay, sans-serif;
     font-size: 8em;
+    padding-left: .5em;
 }
 
 .about-text {
     font-family: 'Urbanist', sans-serif;
     font-size: 1em;
 }
+
+.project {
+	display: flex;
+	flex-wrap: wrap;
+    border-radius: 25px;
+}
+
+.project > * {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 25em;
+}
+
+.cell {
+	padding: 1em;
+    /* background-color: red; */
+	/* margin: 15px 5%; */
+    /* margin: 10px; */
+}
+
+.cell-text{
+    margin-right: 4em;
+    padding: 3em 3em 3em 0em;
+    /* background-color: green; */
+
+}
+
+.cell img {
+	object-fit: contain;
+	width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    /* background-color: blue; */
+}
+
+h2 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 3em;
+}
+
+.description-text {
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+
 
 footer {
     background-color: #95CBBE;
