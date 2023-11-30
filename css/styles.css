@@ -48,14 +48,38 @@ nav {
 }
 
 .nav-list li {
-    align-content: stretch;
+    /* align-content: stretch;
+    padding: .5em .75em;
+    background-color: black; */
 }
 
 nav a {
-    color: #fff9f0;
     text-decoration: none;
-    padding: .5em .75em;
+    color:  #fff9f0;
     background-color: black;
+    text-decoration: none;
+    padding: .25em .3em;
+    border-radius: 7px;
+    margin: 15px;
+    font-family: Clash Display, sans-serif;
+    font-size: 22px;
+}
+
+nav a:hover {
+    border: 1.5px dotted black;
+    background-color: #fff9f0;
+    color: black;
+    border-radius: 7px;
+    padding: 5px;
+    transition-duration: 300ms;
+}
+
+nav a.active {
+	border: 1.5px solid black;
+    background-color: #fff9f0;
+    color: black;
+    border-radius: 7px;
+    padding: 5px;
 }
 
 .splash-img {
