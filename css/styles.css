@@ -11,38 +11,81 @@ body {
     background-color: #fff9f0;
 }
 
-.logo-img {
-    max-width: 6em;
-}
-
-.logo-words {
-    max-width: 9em;
-}
-
 nav {
-    display: flex;
-    flex-direction: column;
-	margin: auto;
-    padding: 1em 0em;
-    width: 100%;
-    text-align: center;
     position: sticky;
     top: 0;
+	overflow: hidden;
     background-color: #fff9f0;
+    font-family: Clash Display, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 100%;
 }
 
-nav li {
+.logo {
+    margin-left: 5%;
+}
+
+.logo img {
+    height: 6rem;
+    margin: 1em 0em;
+}
+
+.nav-links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.nav-list {
     display: inline-flex;
-    flex-direction: column;
-    padding: .5em 1em;
-    margin: 0em 4em;
+    list-style-type: none;
+    padding: 0;
+    gap: 5rem;
+}
+
+.nav-list li {
+    align-content: stretch;
+}
+
+nav a {
+    color: #fff9f0;
+    text-decoration: none;
+    padding: .5em .75em;
     background-color: black;
 }
 
-nav li a {
+/* nav {
+    display: flex;
+    flex-direction: row;
+    
+    background-color: yellow;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: flex-start;
+    background-color: blue;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    background-color: green;
+}
+
+.nav-a {
     font-family: ClashDisplay, sans-serif;
     text-decoration: none;
     color: white;
+    background-color: red;
+} */
+
+.splash-img {
+    max-width: 100%;
 }
 
 .page-title {
