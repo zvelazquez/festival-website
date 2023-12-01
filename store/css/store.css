@@ -1,0 +1,79 @@
+.store-gallery {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 0px 35px; */
+    margin: 0px 3%;
+    padding: 15px;
+    border-radius: 25px;
+    /* background-color: blue; */
+}
+
+.item-cell {
+	/* margin: 15px 5%; */
+    max-width: 25%;
+    margin: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5em;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+.item-cell img {
+	object-fit: contain;
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    /* background-color: green; */
+}
+
+.item-text {
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    /* background-color: yellow; */
+}
+
+.item-name {
+    font-family: Clash Display, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: .5em;
+}
+
+.item-description {
+    font-family: 'Urbanist', sans-serif;
+    line-height: 1.15em;
+    text-align: left;
+}
+
+.item-price {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.price-buy {
+    display: flex;
+    flex-direction: row;
+}
+
+.buy-button {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    background-color: black;
+}
+
+.buy-button h3 {
+    display: flex;
+    width: fit-content;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1em;
+    color: #fff9f0;
+    padding: .75em;
+}
