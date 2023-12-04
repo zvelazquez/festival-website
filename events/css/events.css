@@ -11,16 +11,16 @@
 .event {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .img-cell {
-    display: flex;
-    justify-content: flex-end;
     padding-left: 3em;
+    width: 100%;
 }
 
 .event-img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .text-cell {
