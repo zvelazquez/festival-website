@@ -90,7 +90,8 @@ nav a.active {
 
 .description-text {
     font-family: 'Urbanist', sans-serif;
-    line-height: 1.25em;
+    font-size: 1.15em;
+    line-height: 1.5em;
     width: 50%;
 }
 

@@ -16,28 +16,39 @@
 
 .img-cell {
     padding-left: 3em;
-    width: 200%;
+    width: 40%;
 }
 
 .event-img {
     width: 100%;
 }
 
+#img-top-pad {
+    padding-top: 1.2em;
+}
+
 .text-cell {
     display: flex;
     flex-direction: column;
+    width: 60%;
     padding: 3em;
 }
 
 #event-details {
     font-family: 'Urbanist', sans-serif;
     line-height: 1.25em;
-    width: 75%;
+    width: 90%;
 }
 
 .event-time {
     font-family: 'Urbanist', sans-serif;
     font-size: 1.5em;
+}
+
+#NAMI-Concert-Series {
+    font-size: 1.5em;
+    font-family: 'Urbanist', sans-serif;
+    margin-bottom: .5em;
 }
 
 @media screen and (max-width: 1150px){
@@ -69,6 +80,7 @@
     .text-cell {
         display: flex;
         flex-direction: column;
+        width: 100%;
         text-align: center;
         margin: auto;
     }
