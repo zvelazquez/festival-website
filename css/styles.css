@@ -87,12 +87,20 @@ nav a.active {
 }
 
 .page-details {
+    display: flex;
+    flex-direction: row;
     margin: 0em 3em 0em 4.25em;
+    width: 100%;
 }
 
 .description-text {
     font-family: 'Urbanist', sans-serif;
-    line-height: 1.15em;
+    line-height: 1.25em;
+    width: 50%;
+}
+
+.page-details-img {
+    width: 50%;
 }
 
 h5 {
@@ -176,8 +184,21 @@ footer {
         border-radius: 7px;
         padding: 5px;
     }
-    
-    #viewport {
-      width: 100%;
+
+    .page-title {
+        font-family: ClashDisplay, sans-serif;
+        font-size: 6em;
+        text-align: center;
     }
-  }
+
+    .page-details {
+        margin: auto;
+    }
+    
+    .description-text {
+        font-family: 'Urbanist', sans-serif;
+        line-height: 1.25em;
+        width: 100%;
+        padding: 0em 8em;
+    }
+}

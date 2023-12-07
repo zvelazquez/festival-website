@@ -29,7 +29,59 @@
     padding: 3em;
 }
 
+#event-details {
+    font-family: 'Urbanist', sans-serif;
+    line-height: 1.25em;
+    width: 75%;
+}
+
 .event-time {
     font-family: 'Urbanist', sans-serif;
     font-size: 1.5em;
+}
+
+@media screen and (max-width: 1150px){
+    
+    .day-title {
+        font-family: 'DM Serif Text', serif;
+        font-size: 4.5em;
+        margin: auto;
+        text-align: center;
+    }
+
+    .event {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+
+    .img-cell {
+        width: 75%;
+        margin: auto;
+    }
+    
+    .event-img {
+        width: 100%;
+    }
+    
+    .text-cell {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    #event-details {
+        font-family: 'Urbanist', sans-serif;
+        text-align: left;
+        line-height: 1.25em;
+        padding: 0em 5em;
+        width: 100%;
+    }
+    
+    .event-time {
+        font-family: 'Urbanist', sans-serif;
+        font-size: 1.5em;
+    }
 }
