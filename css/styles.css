@@ -189,6 +189,7 @@ footer {
         font-family: ClashDisplay, sans-serif;
         font-size: 6em;
         text-align: center;
+        padding: 0;
     }
 
     .page-details {
