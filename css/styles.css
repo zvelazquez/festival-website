@@ -113,6 +113,10 @@ footer {
     color: #fff9f0;
 }
 
+.footer-img {
+    width: 25em;
+}
+
 @font-face {
     font-family: ClashDisplay;
     src: url(../fonts/ClashDisplay-Medium.otf);
