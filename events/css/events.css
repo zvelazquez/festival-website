@@ -24,7 +24,7 @@
 }
 
 #img-top-pad {
-    padding-top: 1.2em;
+    padding-top: 3em;
 }
 
 .text-cell {
@@ -43,6 +43,7 @@
 .event-time {
     font-family: 'Urbanist', sans-serif;
     font-size: 1.5em;
+    line-height: 1.75em;
 }
 
 #NAMI-Concert-Series {
