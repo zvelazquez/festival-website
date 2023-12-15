@@ -105,7 +105,7 @@ nav a.active {
 
 .page-title {
     font-family: ClashDisplay, sans-serif;
-    font-size: 10em;
+    /* font-size: 10em; */
     padding-left: .4em;
 }
 
@@ -187,6 +187,27 @@ footer {
     color: #CCFF45;
     transition-duration: 500ms;
     text-decoration: underline;
+}
+
+#page-title-animate {
+    animation-name: page-title;
+    animation-delay: 10ms;
+    animation-direction: forwards;
+    animation-duration: 3.5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes page-title {
+    from {
+        position: relative;
+        font-size: 20em;
+    }
+    to {
+        position: relative;
+        font-size: 10em;
+    }
 }
 
 @font-face {
