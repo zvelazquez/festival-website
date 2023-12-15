@@ -51,7 +51,7 @@
     font-family: Clash Display, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     margin-bottom: .5em;
 }
 
@@ -121,7 +121,7 @@
         font-family: Clash Display, sans-serif;
         font-size: 1.5em;
         font-weight: bold;
-        text-align: left;
+        text-align: center;
         margin-bottom: 0em;
         padding: .5em 0em;
     }
