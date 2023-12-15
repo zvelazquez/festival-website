@@ -74,6 +74,8 @@ nav a.active {
 
 .splash-headline{
     font-size: 12.5em;
+    color: #EC7963;
+    text-shadow: 10px 10px #0741B4;
     text-align: center;
     width: 100%;
     font-family: Clash Display, sans-serif;
@@ -81,14 +83,17 @@ nav a.active {
 
 .splash-year{
     font-size: 32em;
+    color: #CCFF45;
+    text-shadow: 15px 15px #0741B4;
     width: 100%;
     font-family: Clash Display, sans-serif;
-    line-height: .75em;
+    line-height: .65em;
     text-align: center;
 }
 
 .splash-img {
     width: 100%;
+    margin-top: 7em;
 }
 
 .page-title {
