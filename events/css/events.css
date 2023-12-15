@@ -21,6 +21,13 @@
 
 .event-img {
     width: 100%;
+    animation-name: event-img-animate;
+    animation-delay: 100ms;
+    animation-direction: alternate-reverse;
+    animation-duration: 3.5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
 }
 
 #img-top-pad {
@@ -66,6 +73,15 @@
     top: 25%;
     left: 75%;
     z-index: 0;
+}
+
+@keyframes event-img-animate {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 1150px){
