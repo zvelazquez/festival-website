@@ -132,7 +132,24 @@ h5 {
     font-size: 3em;
 }
 
+.gradient-img-big {
+    width: 40%;
+    position: absolute;
+    top: 270%;
+    left: 55%;
+    z-index: 0;
+}
+
+.gradient-img-small {
+    width: 20%;
+    position: absolute;
+    top: 265%;
+    left: 75%;
+    z-index: 0;
+}
+
 footer {
+    z-index: 30;
     display: flex;
     flex-direction: row;
     margin: auto;

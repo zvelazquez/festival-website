@@ -52,6 +52,22 @@
     margin-bottom: .5em;
 }
 
+.gradient-big {
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    z-index: 0;
+}
+
+.gradient-small {
+    width: 20%;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    z-index: 0;
+}
+
 @media screen and (max-width: 1150px){
     
     .day-title {
