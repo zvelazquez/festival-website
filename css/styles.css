@@ -105,12 +105,19 @@ h5 {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-content: space-around;
     background-color: #0741B4;
-    margin-top: 15em;
     padding: 3em 10em 3em 10em;
     font-family: 'Urbanist', sans-serif;
     font-size: .35em;
     color: #fff9f0;
+}
+
+.footer-column {
+    margin: 4em;
 }
 
 .footer-img {
