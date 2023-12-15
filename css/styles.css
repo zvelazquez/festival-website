@@ -13,6 +13,7 @@ body {
 
 nav {
     position: sticky;
+    z-index: 2;
     top: 0;
 	overflow: hidden;
     background-color: #fff9f0;
@@ -69,6 +70,25 @@ nav a.active {
     background-color: black;
     border-radius: 7px;
     padding: 5px;
+}
+
+.splash-headline{
+    font-size: 8em;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 35%;
+    font-family: Clash Display, sans-serif;
+}
+
+.splash-year{
+    font-size: 32em;
+    position: absolute;
+    z-index: 0;
+    top: 75%;
+    font-family: Clash Display, sans-serif;
+    line-height: .75em;
+    text-align: center;
 }
 
 .splash-img {
