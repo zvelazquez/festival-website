@@ -108,7 +108,9 @@ footer {
     display: flex;
     flex-direction: row;
     margin: auto;
-    align-content: space-around;
+    width: 100%;
+    margin-top: 15em;
+    justify-content: space-between;
     background-color: #0741B4;
     padding: 3em 10em 3em 10em;
     font-family: 'Urbanist', sans-serif;
@@ -118,10 +120,28 @@ footer {
 
 .footer-column {
     margin: 4em;
+    width: 27%;
 }
 
 .footer-img {
-    width: 25em;
+    width: 45em;
+}
+
+.footer-section-headers {
+    font-size: 24px;
+}
+
+.footer-links {
+    font-size: 16px;
+    line-height: 1.75em;
+    text-decoration: none;
+    color: #fff9f0;
+}
+
+.footer-links:hover {
+    color: #CCFF45;
+    transition-duration: 500ms;
+    text-decoration: underline;
 }
 
 @font-face {
